@@ -10,7 +10,7 @@ const Country = ({ country }) => {
         setVisited(!Visited)
     }
     return (
-        <div className='body'>
+        <div className={`body ${Visited && 'visited'}`}>
             <img src={flags.png} />
             <h4>Name: {name?.common}</h4>
             <h4>Official Name: {name?.official}</h4>
