@@ -10,7 +10,7 @@ const Country = ({country}) => {
             <p>Currencies: {currencies?.EUR?.name}</p>
             <p>symbol: {currencies?.EUR?.symbol}</p>
             <h5>region: {region}</h5>
-            {/* <p>cca3: {country.cca3}</p> */}
+            <p><small>cca3: {country.cca3}</small></p>
         </div>
     );
 };
