@@ -5,5 +5,9 @@
     border-radius: 15px;
 }
 .visited{
-    background-color:darkslategray;
+    background-color:rgb(121, 235, 235);
+    color: black;
+}
+.nonVisited{
+    background-color: rgb(2, 39, 45);
 }
